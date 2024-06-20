@@ -1,0 +1,99 @@
+.post {
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-body {
+    padding: 10px;
+  }
+  
+  .post-interactions {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .post-description {
+    font-size: 18px;
+  }
+  .post-interactions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .post-interactions {
+    display: flex; /* Activa flexbox en el contenedor */
+    justify-content: flex-start; /* Alinea los elementos al inicio (izquierda) */
+  }
+  .post-interactions button:hover i {
+    transform: scale(1.2);
+  }
+  .post-interactions i {
+    margin-right: 5px;
+  }
+  
+  .menu{
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    display: flex;
+  }
+  .menu button:hover i {
+    transform: scale(1.2);
+  }
+  .botonmenu :hover i { 
+    transform: scale(1.2);
+  }
+  .botonmenu{
+    margin-left: auto;
+  }
+  .botonmenu button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icono-perfil{
+    width: 40px;
+    height: 40px;
+   font-size: 40px;
+  }
+  .fa-brands fa-html5 { 
+  
+  }
+  .save{
+    margin-left: auto;
+  }
